@@ -2,11 +2,11 @@
 /// ! Home Posts Data:
 final HOME_POSTS_LIST = [
   {
-    "userProfile": "profile_1.png",
+    "userProfile": "mlaw.png",
     "username": "John Doe",
-    "userBio": "Full-Stack Flutter Developer, Firebase Expert | Youtuber | Blogger",
+    "userBio": "CVO | Necta",
     "createAt": "1w",
-    "description": "Some common mistakes that flutter developer make while learning flutter.",
+    "description": "hdhdhd.",
     "postImage": "post_image_1.jpg",
     "postImagesList": ["post_image_1.jpg", "post_image_2.jpg", "post_image_3.jpg"],
     "tags": ["#code", "#flutterdevelopment", "#flutterui", "#fluttermafia", "#ullstackdeveloper", "#fluttercode", "#iosdeveloper"],

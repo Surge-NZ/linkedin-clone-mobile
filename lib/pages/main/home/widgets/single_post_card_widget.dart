@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:linkedin_mobile_ui/data/post_entity.dart';
@@ -35,6 +34,7 @@ class _SinglePostCardWidgetState extends State<SinglePostCardWidget> {
                   ),
                   Expanded(
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -56,17 +56,20 @@ class _SinglePostCardWidgetState extends State<SinglePostCardWidget> {
                                 child: const Icon(Icons.more_vert))
                           ],
                         ),
-                         Text(
-                          "${widget.post.userBio}",
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(
-                              fontSize: 12, color: linkedInMediumGrey86888A),
+                        Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            "${widget.post.userBio}",
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                                fontSize: 12, color: linkedInMediumGrey86888A),
+                          ),
                         ),
                         const SizedBox(
                           height: 2,
                         ),
-                         Row(
+                        Row(
                           children: [
                             Text(
                               "${widget.post.createAt} - ",

@@ -67,21 +67,21 @@ class _MainPageState extends State<MainPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(FontAwesomeIcons.userGroup),
-            label: "Network",
+            label: "Learn",
           ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.add_box,
-              size: 30,
-            ),
-            label: "Post",
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(
+          //     Icons.add_box,
+          //     size: 30,
+          //   ),
+          //   label: "Post",
+          // ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.notifications,
               size: 30,
             ),
-            label: "Notifications",
+            label: "Offers",
           ),
           BottomNavigationBarItem(
             icon: Icon(FontAwesomeIcons.briefcase),

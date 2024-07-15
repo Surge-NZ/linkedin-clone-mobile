@@ -30,11 +30,11 @@ class PostEntity {
 
   static List<PostEntity> postListData = [
     PostEntity(
-        userProfile: "profile_1.jpeg",
-        username: "John Doe",
-        userBio: "Full-Stack Flutter Developer, Firebase Expert | Youtuber | Blogger",
-        createAt: "1w",
-        description: "Some common mistakes that flutter developer make while learning flutter.",
+        userProfile: "mlaw.jpg",
+        username: "Michael Law",
+        userBio: "CVO | Necta",
+        createAt: "1s",
+        description: "Necta Sneakpeak into the void of Flutter. Learn, Network & Get Paid.",
         postImage: "post_image_1.jpg",
         postImages: ["post_image_1.jpg", "post_image_2.jpg", "post_image_3.jpg"],
         tags: ["#code", "#flutterdevelopment", "#flutterui", "#fluttermafia", "#ullstackdeveloper", "#fluttercode", "#iosdeveloper"],
@@ -58,7 +58,7 @@ class PostEntity {
     ),
 
     PostEntity(
-        userProfile: "profile_1.jpeg",
+        userProfile: "mlaw.jpg",
         username: "Carig C. Watson",
         userBio: "Software Developer at Google #GDE",
         createAt: "2w",
@@ -86,7 +86,7 @@ class PostEntity {
     ),
 
     PostEntity(
-        userProfile: "profile_1.jpeg",
+        userProfile: "mlaw.jpg",
         username: "Alexander Graham Bell",
         userBio: "Inventor | Developer | Mobile Founder",
         createAt: "1d",

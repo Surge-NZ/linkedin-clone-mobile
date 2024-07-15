@@ -26,7 +26,7 @@ class NetworkEntity {
 
     NetworkEntity(
       userBgImage: "bg_image_2.png",
-      userProfileImage: "profile_1.jpeg",
+      userProfileImage: "mlaw.jpg",
       mutualConnections: 22,
       userBio: "Senior Software Engineer",
       username: "Carig C. Watson",
@@ -42,7 +42,7 @@ class NetworkEntity {
 
     NetworkEntity(
       userBgImage: "bg_image_3.jpeg",
-      userProfileImage: "profile_1.jpeg",
+      userProfileImage: "mlaw.jpg",
       mutualConnections: 13,
       userBio: "Android Developer at Google",
       username: "Stephan Covey",
@@ -58,7 +58,7 @@ class NetworkEntity {
 
     NetworkEntity(
       userBgImage: "bg_image_2.png",
-      userProfileImage: "profile_1.jpeg",
+      userProfileImage: "mlaw.jpg",
       mutualConnections: 11,
       userBio: "Flutter Developer & Advocate",
       username: "Robert Frost",
@@ -74,7 +74,7 @@ class NetworkEntity {
 
     NetworkEntity(
       userBgImage: "bg_image_3.jpeg",
-      userProfileImage: "profile_1.jpeg",
+      userProfileImage: "mlaw.jpg",
       mutualConnections: 76,
       userBio: "Flutter Developer & Advocate",
       username: "Doug Stevenson",
